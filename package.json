@@ -1,7 +1,7 @@
 {
-  "name": "dsh-plugin-cron-scheduler",
-  "description": "Cron scheduler plugin for DeepSeek Harness: schedule agent tasks via natural language or a sidebar UI, with fixed/new session strategies, run history, manual trigger, and live sync.",
-  "version": "0.2.7",
+  "name": "dsh-plugin-cron-moe4all",
+  "description": "MoE4All edition of the Cron scheduler plugin for DeepSeek Harness",
+  "version": "0.2.7-moe4all.1",
   "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
@@ -53,10 +53,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LittleBlackTong/dsh-plugin-cron.git"
+    "url": "git+https://github.com/Headmaster218/dsh-plugin-cron-moe4all.git"
   },
   "bugs": {
-    "url": "https://github.com/LittleBlackTong/dsh-plugin-cron/issues"
+    "url": "https://github.com/Headmaster218/dsh-plugin-cron-moe4all/issues"
   },
-  "homepage": "https://github.com/LittleBlackTong/dsh-plugin-cron#readme"
+  "homepage": "https://github.com/Headmaster218/dsh-plugin-cron-moe4all#readme",
+  "moe4all": {
+    "upstream": "dsh-plugin-cron-scheduler@0.2.7",
+    "repository": "https://github.com/LittleBlackTong/dsh-plugin-cron",
+    "commit": "f7a57a64ac26e325ddacc59cd9368e6844657347"
+  }
 }

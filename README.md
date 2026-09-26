@@ -1,4 +1,6 @@
-# dsh-plugin-cron-scheduler
+# dsh-plugin-cron-moe4all
+
+> MoE4All-maintained edition of `dsh-plugin-cron-scheduler`. See [UPSTREAM.md](UPSTREAM.md) for the exact source checkpoint, attribution, and purpose of this independent repository.
 
 > A cron scheduler plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): schedule agent tasks on a cron expression — via natural language or a sidebar UI — and each job injects a user message into a target session at the right time, triggering a full agent turn.
 
