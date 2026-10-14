@@ -27,6 +27,7 @@
       "patch": "./cordis.patch.yml"
     },
     "client": {
+      "inject": ["slots", "locale"],
       "platform": "web"
     }
   },
