@@ -1,0 +1,15 @@
+{
+  "package": "dsh-plugin-cron-moe4all",
+  "clientRequires": [
+    "react"
+  ],
+  "tests": [
+    {
+      "kind": "node-test",
+      "directory": "test",
+      "extensions": [
+        ".test.js"
+      ]
+    }
+  ]
+}

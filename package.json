@@ -27,12 +27,20 @@
       "patch": "./cordis.patch.yml"
     },
     "client": {
-      "inject": ["slots", "locale"],
+      "inject": [
+        "slots",
+        "locale"
+      ],
       "platform": "web"
     }
   },
   "scripts": {
-    "test": "node --test 'test/*.test.js'"
+    "test": "node --test 'test/*.test.js'",
+    "ci:check": "node --experimental-vm-modules ci/plugin-ci.mjs check",
+    "ci:test": "node ci/plugin-ci.mjs test",
+    "ci:contract": "node ci/plugin-ci.mjs test-contract",
+    "release:build": "node --experimental-vm-modules ci/plugin-ci.mjs pack",
+    "release:verify": "node ci/plugin-ci.mjs verify-release"
   },
   "engines": {
     "node": ">=18"
@@ -64,5 +72,6 @@
     "upstream": "dsh-plugin-cron-scheduler@0.2.7",
     "repository": "https://github.com/LittleBlackTong/dsh-plugin-cron",
     "commit": "f7a57a64ac26e325ddacc59cd9368e6844657347"
-  }
+  },
+  "packageManager": "npm@10.9.2"
 }
