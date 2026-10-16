@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-cron-moe4all",
   "description": "MoE4All edition of the Cron scheduler plugin for DeepSeek Harness",
-  "version": "0.2.7-moe4all.1",
+  "version": "0.2.7-moe4all.2",
   "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
